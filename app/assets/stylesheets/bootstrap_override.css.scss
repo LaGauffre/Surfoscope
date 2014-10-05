@@ -1,0 +1,37 @@
+$body-bg: white;
+
+@import "bootstrap";
+
+.navbar-white{
+  background-color: #222222;
+}
+
+.navbar-white .navbar-brand{
+  font-family: 'Open Sans', sans-serif; /*Police utilisée*/
+  font-weight: 800;  /*Type de police*/
+  font-size: 64px; /*Taille d ela police*/
+}
+
+
+.navbar-white .navbar-brand,
+.navbar-white .navbar-nav > li > a {
+  color: white; /*Couleur de la police*/
+  line-height: 64px; /*Hauteur de la NAV BAR*/
+}
+
+
+.navbar-white .navbar-nav > li > a:hover,
+.navbar-white .navbar-nav > li > a:active,
+.navbar-white .navbar-nav > li > a:focus,
+.navbar-white .navbar-nav > .open > a,
+.navbar-white .navbar-nav > .open > a:hover,
+.navbar-white .navbar-nav > .open > a:focus {
+  color: blue;
+}
+
+.navbar-white .navbar-brand:hover,
+.navbar-white .navbar-brand:active,
+.navbar-white .navbar-brand:focus {
+  color: blue;
+}
+
